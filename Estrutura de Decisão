@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+  char cod;
+
+  printf ("Escolha entre S - D - N - R - C: ");
+
+  scanf ("%c", &cod);
+
+  switch (cod){
+
+    case 'S':
+
+    case 's':
+
+    printf ("Região Sul");
+
+    break;
+
+    case 'D':
+
+    case 'd':
+
+    printf ("Região Sudeste");
+
+    break;
+
+    case 'N':
+
+    case 'n':
+
+    printf ("Região Norte");
+
+    break;
+
+    case 'R':
+
+    case 'r':
+
+    printf ("Região Nordeste");
+
+    break;
+
+    case 'C':
+
+    case 'c':
+
+    printf ("Região Centro-Oeste");
+
+    break;
+
+    default:
+
+    printf ("Código inválido");
+
+  }
+
+  return 0;
+
+}
