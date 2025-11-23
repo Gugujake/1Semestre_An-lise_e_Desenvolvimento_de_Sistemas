@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf ("Digite um n°: ");
+    scanf ("%i", &num);
+    switch (num){
+        case 21:
+        printf ("São iguais");
+        break;
+        case 30:
+        printf ("Triângulo");
+        break;
+        case 10:
+        printf ("Quadrado");
+        break;
+    default:
+    printf ("Valor inválido");
+    }
+    return 0;
+}
