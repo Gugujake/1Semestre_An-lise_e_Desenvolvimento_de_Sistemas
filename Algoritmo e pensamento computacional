@@ -1,0 +1,98 @@
+Estrura sequêncial
+#include <stdio.h>
+
+int main() {
+
+  float numA, numB;
+
+  printf("Digite um número inteiro: ");
+
+  scanf("%f", &numA);
+
+  printf("Digite outro número inteiro: ");
+
+  scanf("%f", &numB);
+
+  printf("%.0f + %.0f = %.0f", numA, numB, numA + numB);
+
+  printf("\n%.0f - %.0f = %.0f", numA, numB, numA - numB);
+
+  printf("\n%.0f * %.0f = %.0f", numA, numB, numA * numB);
+
+  printf("\n%.0f / %.0f = %.1f", numA, numB, numA / numB);
+
+  return 0;
+
+}
+
+Atividade 2
+
+#include <stdio.h>
+
+int main() {
+
+  float numA, numB, media;
+
+  printf("Digite o primeiro número real: ");
+
+  scanf("%f", &numA);
+
+  printf("Digite o segundo numero real: ");
+
+  scanf("%f", &numB);
+
+  média = (numA + numB) / 2.0;
+
+  printf("\nA media entre %.0f e %.0f é %.1f.", numA, numB, media);
+
+  return 0;
+
+}   
+
+Atividade 3
+
+#include <stdio.h>
+
+int main() {
+
+  int num;
+
+  printf("Digite um número inteiro:");
+
+  scanf("%i", &num);
+
+  int antecessor = num - 1;
+
+  int sucessor = num + 1;
+
+  printf("\nO número %i tem como antecessor o %i, e como sucessor o %i.", num, antecessor,sucessor);
+
+  return 0;
+
+}
+
+
+Atividade 4
+
+
+#include <stdio.h>
+
+
+int main() {
+
+  int num;
+
+  int resultado;
+
+  printf("Digite um número inteiro:");
+
+  scanf("%i", &num);
+
+  resultado = num * num;
+
+  printf("\nO número %i elevado a 2 é %i.", num, resultado);
+
+  return 0;
+
+}
+
