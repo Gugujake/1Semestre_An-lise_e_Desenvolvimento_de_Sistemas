@@ -1,0 +1,14 @@
+ #include <stdio.h>
+int main()
+{
+    int num;
+    printf ("Digite um n°: ");
+    scanf ("%i", &num);
+    if (num > 21){
+     printf("Triângulo");
+    }
+    else{
+        printf ("Quadrado");
+    }
+    return 0;
+}
